@@ -1,0 +1,6 @@
+version: "3"
+
+tasks:
+  vendor:
+    - go mod tidy
+    - go mod vendor
